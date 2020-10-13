@@ -1,0 +1,40 @@
+# Various Altium files
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+__Previews
+*.PrjPcbStructure
+*.Dat
+*.REP 
+*.TLT
+*.LOG
+*.log
+*.htm
+*.$$$
+
+#useless dirs
+Project\
+Project\ Logs
+Project Outputs for*
+Project\ Outputs
+objednavka/
+
+AltiumPCB/Fabrication_output/
+
+#History
+History
+
+#Exports, but not manual ones
+exports/*
+!exports/manual
+
+#Python stuff
+scripts/__pycache__/
+*.bak
+*.dwl
+*.dwl2
+
+# LTSpice
+*.raw
+*.log
+
