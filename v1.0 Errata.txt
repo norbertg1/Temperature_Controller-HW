@@ -1,1 +1,4 @@
 SWDIO and SWCLK swapped	✔2020.11.20
+crystal change to 32 Mhz ---> not necessary google for benefits
+LM4041 wrong footprint
+R25 wrong part number its below 1ohm
