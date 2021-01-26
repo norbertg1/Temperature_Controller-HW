@@ -1,6 +1,6 @@
 # Thermoelectric module temperature stabilizer
 
-This is a temperature stabilizer for thermoelectric cooler module (I used Peltier module). This repository consist from a project of schematic and PCB design files made in Altium Designer with LCSC part number ready for manufacturing with JLCPCB.
+This is a temperature stabilizer for thermoelectric cooler module (Peltier module) based on STM32F3 microprocessor and buck converter. This repository consist from a project of schematic and PCB design files made in Altium Designer with LCSC part number ready for manufacturing with JLCPCB.
 
 **Features:**
  - 1.5 A and 5 A output current
@@ -9,6 +9,7 @@ This is a temperature stabilizer for thermoelectric cooler module (I used Peltie
  - 16 bit ADC for NTC
  - Vref with LM4041 1.225 V
  - Current sense for both outputs
+ - STM32F373
  - OLED screen
 
 ### Block schematic:
