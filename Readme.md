@@ -1,4 +1,4 @@
-# Thermoelectric module temperature stabilizer
+# Thermoelectric module temperature stabilizer (PID controller)
 
 This is a temperature stabilizer for thermoelectric cooler module (Peltier module) based on STM32F3 microprocessor and buck converter. This repository consist from a project of schematic and PCB design files made in Altium Designer with LCSC part number ready for manufacturing with JLCPCB.
 
