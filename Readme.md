@@ -1,15 +1,16 @@
 # Thermoelectric module temperature stabilizer (PID controller)
 
-This is a temperature stabilizer for thermoelectric cooler module (Peltier module) based on STM32F3 microprocessor and buck converter. This repository consist from a project of schematic and PCB design files made in Altium Designer with LCSC part number ready for manufacturing with JLCPCB.
+This is a temperature stabilizer for thermoelectric cooler module (Peltier module) based on STM32F3 microprocessor and buck converter. The repository consist from a project of **Schematic** and **PCB design** files made in Altium Designer. All parts includes LCSC part number ready for manufacturing with JLCPCB.
 
 **Features:**
  - 1.5 A and 5 A output current
- - NTC temp. sensor
- - BMP280 temp. sensor
- - 16 bit ADC for NTC
- - Vref with LM4041 1.225 V
- - Current sense for both outputs
+ - Various NTC, PTC temp. sensor support
+ - 16 bit ADC for temp. sensor
+ - I2C temp. sensor support (BMP280, etc..)
+ - Current, voltage and power sense for both outputs
+ - PID loop
  - STM32F373
+ - Vref with LM4041 1.225 V for better temp. sensing
  - OLED screen
 
 ### Block schematic:
@@ -35,7 +36,7 @@ All the two ouputs are equiped with current sense shunt and current sense amplif
 Two options:
  - **BMP280:** Fully digital readout over I2C. Disadvantage is that you need 4 wires, and maximum and minimum values are determined by datasheet (-40 °C and 85 °C).
 
- - **NTC:** Precise 1.225 V is produced by IC for Vref and for power Rx and NTC modules. Differential ADC used for mesure the voltage of Rx and NTC modules. From the included temperature vs. resistance (R-T) table the temperature can be determined.
+ - **PTC, NTC:** Precise 1.225 V is produced by IC for Vref and for power Rx and NTC modules. Differential ADC used for mesure the voltage of Rx and NTC modules. From the included temperature vs. resistance (R-T) table the temperature can be determined.
 Also any part can be used that withstand the temperature and the R-T curve is known or measured.
 
 ### Programming
