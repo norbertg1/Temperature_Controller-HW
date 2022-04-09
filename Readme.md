@@ -1,10 +1,10 @@
 # Temperature controller - HW
 
-This is a temperature stabilizer (PID controller) for thermoelectric cooler (Peltier module) or ceramic heater modul based on STM32F3 microprocessor and buck converter. The repository consist from a project of **Schematic** and **PCB design** files made in Altium Designer. All parts includes LCSC part number ready for manufacturing with JLCPCB.
+This is a temperature stabilizer (PID controller) for thermoelectric cooler (Peltier module) or ceramic heater modul based on STM32F3 microprocessor and buck converter. The repository consist from a project of **schematic** and **PCB design** files made in Altium Designer. All parts includes LCSC part number ready for manufacturing with JLCPCB.
 
 See also:\
-[Temperature Controller firmware](https://github.com/norbertg1/Temperature_Controller-FW)\
-[Temperature Controller software](https://github.com/norbertg1/Temperature_Controller-SW)
+[Temperature controller firmware](https://github.com/norbertg1/Temperature_Controller-FW)\
+[Temperature controller software](https://github.com/norbertg1/Temperature_Controller-SW)
 
 **Features:**
  - 1.5 A and 5 A output current
