@@ -15,7 +15,7 @@ See also:\
  - PID loop
  - STM32F373
  - Vref with LM4041 1.225 V for better temp. sensing
- - OLED screen
+ - OLED screen SSD1306
  - Control over serial port with PC
 
 ### Block schematic:
