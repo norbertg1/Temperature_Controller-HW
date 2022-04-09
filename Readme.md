@@ -1,6 +1,10 @@
-# Thermoelectric module temperature stabilizer (PID controller)
+# Temperature controller (PID controller)
 
-This is a temperature stabilizer for thermoelectric cooler module (Peltier module) based on STM32F3 microprocessor and buck converter. The repository consist from a project of **Schematic** and **PCB design** files made in Altium Designer. All parts includes LCSC part number ready for manufacturing with JLCPCB.
+This is a temperature stabilizer for thermoelectric cooler (Peltier module) or ceramic heater modul based on STM32F3 microprocessor and buck converter. The repository consist from a project of **Schematic** and **PCB design** files made in Altium Designer. All parts includes LCSC part number ready for manufacturing with JLCPCB.
+
+See also:
+[Temperature Controller firmware](https://github.com/norbertg1/Temperature_Controller-FW)
+[Temperature Controller software](https://github.com/norbertg1/Temperature_Controller-SW)
 
 **Features:**
  - 1.5 A and 5 A output current
@@ -12,6 +16,7 @@ This is a temperature stabilizer for thermoelectric cooler module (Peltier modul
  - STM32F373
  - Vref with LM4041 1.225 V for better temp. sensing
  - OLED screen
+ - Control over serial port with PC
 
 ### Block schematic:
 
@@ -19,7 +24,7 @@ This is a temperature stabilizer for thermoelectric cooler module (Peltier modul
  
 ### Use case
 
-Original purpose for this project was cooling and very precise stabilizing radiation detector and preamp input FET temperature, but its can be reused for anything else where the cooling power is enough (or for heating).
+Original purpose for this project was cooling or heating and very precise stabilizing radiation detector and preamp input FET temperature, but its can be reused for anything else where the cooling or heating power is enough.
 
 ### Output power
 
@@ -52,7 +57,7 @@ In very short:\
 Read the temperature --> calculate the error from desired temp --> adjust the output power\
 For software see the [related repository](https://github.com/xnorbi/Temperature_Controller-SW).
 
-### Semi assembled PCB
+### Assembled PCB
 
 <img src="doc/temp_controller_completeWdescr.png" alt=" " width="1000"/>
 
