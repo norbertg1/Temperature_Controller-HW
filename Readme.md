@@ -20,8 +20,8 @@ See also:\
 
 ### Block schematic:
 
-<img src="doc/schematic_blockview.png" alt=" "> 
- 
+<img src="doc/schematic_blockview.png" alt=" "> \
+Detailed hardware schematic [here](/doc/Temperature_controller.pdf).
 ### Use case
 
 Original purpose for this project was cooling or heating and very precise stabilizing radiation detector and preamp input FET temperature, but its can be reused for anything else where the cooling or heating power is enough.
